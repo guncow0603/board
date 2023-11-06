@@ -14,4 +14,10 @@ public class BoardRequestDto {
     private String password;
     private String contents;
 
+    public BoardRequestDto(String title, String username, String password, String contents) {
+        this.title = title;
+        this.username = username;
+        this.password = password;
+        this.contents = contents;
+    }
 }
